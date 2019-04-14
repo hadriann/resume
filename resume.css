@@ -12,16 +12,21 @@ body {
   background: #f8ed18;
   color: #231f20;
   line-height: 1.5;
-  padding: 1rem;
 }
 
 h1 {
   margin: 0;
 }
 
-body > header,
-body > address,
-body > section {
+main {
+  border-right: 2px solid #333;
+  margin-right: 10rem;
+  padding: 1rem;
+}
+
+main > header,
+main > address,
+main > section {
   margin-bottom: 2rem;
 }
 
