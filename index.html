@@ -3,7 +3,51 @@
   <head>
     <title>Adrian Nita's resume</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="resume.css">
+    <style>
+      html, body {
+        font-family: sans-serif;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        background: gold;
+        line-height: 1.5;
+      }
+      
+      body, a {
+        color: #222;
+      }
+      
+      h1 {
+        margin: 0;
+      }
+      
+      main {
+        border-right: 2px solid #333;
+        margin-right: 10rem;
+        padding: 1rem;
+      }
+      
+      main > header, main > address, main > section {
+        margin-bottom: 2rem;
+      }
+      
+      #contact {
+        font-style: normal;
+      }
+      
+      #header {
+        line-height: 1;
+      }
+      
+      @media print {
+        .no-print {
+          display: none;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -81,9 +125,9 @@
 
       <footer class="no-print">
         &copy; 2019 |
-        <a href="" download="adrian-nita.html">Download</a> <kbd>CTRL+S</kbd> |
-        <a href="" onclick="print(); return false;">Print</a> <kbd>CTRL+P</kbd> |
-        <a href="tel:+40722262406">Call</a>
+        <a href="" download="adrian-nita.html" title="CTRL+S">Download</a> |
+        <a href="" onclick="print(); return false;" title="CTRL+P">Print</a> |
+        <a href="tel:+40722262406" title="Phone">Call</a>
       </footer>
     </main>
 
