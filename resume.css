@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  background: #f8ed18;
-  color: #231f20;
+  background: gold;
+  color: #222;
   line-height: 1.5;
 }
 
@@ -31,7 +31,7 @@ main > section {
 }
 
 a {
-  color: #231f20;
+  color: #222;
 }
 
 kbd {
