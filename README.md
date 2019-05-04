@@ -1,3 +1,5 @@
 # Resume
 
-A semantic, accessible, printable and downloadable piece of resume.
+A _semantic, accessible, printable and downloadable_ piece of resume.
+
+Available at https://hadriann.github.io/resume/.
